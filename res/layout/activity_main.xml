@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+    <ImageView 
+        android:id="@+id/full"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/conver1"
+        />
+    
+    
+    
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/xiaologo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dip"
+        android:src="@drawable/cover_slide" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/cover_share_icon_normal" />
+
+   <RelativeLayout 
+        android:id="@+id/tab"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="#90000000"
+        android:visibility="gone"
+       >
+       <View 
+        android:id="@+id/flag"
+        android:layout_width="1dip"
+        android:layout_height="1dip"
+        android:layout_centerInParent="true"
+           />
+       
+       <ImageView 
+              android:id="@+id/tab2"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:background="@drawable/conver2"
+        android:layout_toLeftOf="@+id/flag"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+           />
+       <ImageView 
+              android:id="@+id/tab1"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:background="@drawable/conver1"
+        android:layout_toLeftOf="@+id/tab2"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+           />
+           <ImageView 
+              android:id="@+id/tab3"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:background="@drawable/conver3"
+        android:layout_toRightOf="@+id/flag"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+           />
+       <ImageView 
+              android:id="@+id/tab4"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:background="@drawable/conver4"
+        android:layout_toRightOf="@+id/tab3"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
+           />
+   </RelativeLayout> 
+    
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/cover_slide1"
+        android:layout_marginLeft="10dip"
+        android:layout_marginBottom="10dip"
+         />
+    
+    
+    
+    
+</RelativeLayout>
